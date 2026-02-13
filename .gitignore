@@ -2,12 +2,15 @@
 env/
 fastapi-venv/
 venv/
+.venv/
+
+# Environment files
 .env
+*.env
 
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 
 # Editor / OS files
 .vscode/
