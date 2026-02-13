@@ -13,6 +13,7 @@ app = FastAPI(
 
 app.include_router(health_router)
 
+
 @app.get("/")
 def root():
     return {"message": "Week 2 FastAPI app running 🚀"}

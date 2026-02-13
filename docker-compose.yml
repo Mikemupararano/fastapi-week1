@@ -1,0 +1,15 @@
+services:
+  root:
+    build: .
+    ports:
+      - "8000:8000"
+
+  week1:
+    build: ./week1-fastapi
+    ports:
+      - "8001:8001"
+
+  week2:
+    build: ./week2-fastapi
+    ports:
+      - "8002:8002"
